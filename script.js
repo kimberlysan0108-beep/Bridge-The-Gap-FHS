@@ -109,6 +109,13 @@ document.addEventListener("DOMContentLoaded", () => {
           normalizedItem.DueDate ||
           normalizedItem.Date ||
           "";
+        // Get open for 
+        const For = 
+          normalizedItem.For ||
+          normalizedItem["For"] ||
+          normalizedItem.For ||
+          normalizedItem.For ||
+          "";
 
         // Get status if available
         const status = normalizedItem.Status || "";
