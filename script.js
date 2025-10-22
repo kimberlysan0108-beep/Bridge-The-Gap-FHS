@@ -110,11 +110,11 @@ document.addEventListener("DOMContentLoaded", () => {
           normalizedItem.Date ||
           "";
         // Get open for 
-        const for = 
-          normalizedItem.For ||
-          normalizedItem["for"] ||
-          normalizedItem.for ||
-          normalizedItem.For ||
+        const category = 
+          normalizedItem.Category ||
+          normalizedItem["Category"] ||
+          normalizedItem.Category ||
+          normalizedItem.Category ||
           "";
 
         // Get status if available
