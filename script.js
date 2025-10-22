@@ -110,10 +110,10 @@ document.addEventListener("DOMContentLoaded", () => {
           normalizedItem.Date ||
           "";
         // Get open for 
-        const For = 
+        const for = 
           normalizedItem.For ||
-          normalizedItem["For"] ||
-          normalizedItem.For ||
+          normalizedItem["for"] ||
+          normalizedItem.for ||
           normalizedItem.For ||
           "";
 
