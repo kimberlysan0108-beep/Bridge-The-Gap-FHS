@@ -8,7 +8,6 @@ const collegeHelpResources = [
   {
     title: "California Student Aid Commission - Financial Aid Programs",
     url: "https://www.csac.ca.gov/financial-aid-programs",
-    image: "https://yt3.googleusercontent.com/ytc/AIdro_lwrm6NdX_mxMmCaf1ayqZmZXdjuRxA5VatoI2tLPLVYUY=s900-c-k-c0x00ffffff-no-rj",
   },
   {
     title: "Federal Student Aid - Types of Aid",
