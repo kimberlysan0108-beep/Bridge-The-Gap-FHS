@@ -234,7 +234,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const cardsHTML = items
       .map((item) => {
         const normalizedItem = normalizeItem(item);
-        const name = getName(normalizedItem);
+        const name = gettitle(normalizedItem);
         const status = normalizedItem.Status || normalizedItem.status || "";
         const notes = getNotes(normalizedItem);
         const deadline = getDeadline(normalizedItem);
@@ -243,7 +243,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return `
         <div class="resource-card">
           <div class="card-info">
-            <h3>${name}</h3>
+            <h3>${title}</h3>
             ${notes ? `<p>${notes}</p>` : ""}
             <ul>
               ${status ? `<li><strong>Status:</strong> ${status}</li>` : ""}
