@@ -12,22 +12,18 @@ const collegeHelpResources = [
   {
     title: "Federal Student Aid - Types of Aid",
     url: "https://studentaid.gov/understand-aid/types",
-    image: "https://studentaid.gov/sites/default/files/field_image/understand-aid-types.jpg",
   },
   {
     title: "Common App - First Year Students",
     url: "https://www.commonapp.org/apply/first-year-students",
-    image: "https://www.commonapp.org/static/cf1a6c0dd1a60bc7b54b8a13eaeb6498/commonapp-logo-social.png",
   },
   {
     title: "University of California - How to Apply",
     url: "https://admission.universityofcalifornia.edu/how-to-apply/",
-    image: "https://admission.universityofcalifornia.edu/wp-content/uploads/sites/2/2022/09/UC-logo-blue-gold-stacked.png",
   },
   {
     title: "College Board - How to Begin College Applications",
     url: "https://bigfuture.collegeboard.org/plan-for-college/apply-to-college/college-applications-how-to-begin",
-    image: "https://cbprod.collegeboard.org/sites/default/files/2021-08/BigFuture_OG_Image.png",
   },
   {
     title: "U.S. News - College Application Process",
