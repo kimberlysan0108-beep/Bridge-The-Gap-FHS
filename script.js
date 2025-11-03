@@ -32,7 +32,14 @@ const collegeHelpResources = [
   {
     title: "U.S. News - College Application Process",
     url: "https://www.usnews.com/education/best-colleges/articles/college-application-process",
-    image: "https://www.usnews.com/dims4/USNEWS/14fa3bd/2147483647/thumbnail/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F9d%2F14%2Fba21e6d544a1b3e0e4f6e4a9ae25%2F140626-collegeapplicationdeadline-stock.jpg",
+  },
+  {
+    title: "Xello Resources - Guides ready to download",
+    url: "https://help.xello.world/en-us/Content/Knowledge-Base/Xello-6-12/College-Planning/CA_Complete-Teacher-Eval.htm",
+  },
+  {
+    title: "Xello College Planning Resources",
+    url: "https://help.xello.world/en-us/Content/Knowledge-Base/Xello-6-12/College-Planning/KB_6-12_College-Planning.htm",
   },
 ];
 
@@ -238,6 +245,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const notes = getNotes(normalizedItem);
         const deadline = getDeadline(normalizedItem);
         const category = getCategory(normalizedItem);
+        const link = getLink(normalizedItem);
         
         const hasTitle = normalizedItem.title || normalizedItem.Title || normalizedItem.name || normalizedItem.Name;
         const displayTitle = hasTitle ? name : `Untitled Opportunity #${index + 1}${notes ? ": " + notes.substring(0, 40) + (notes.length > 40 ? "..." : "") : ""}`;
@@ -251,7 +259,8 @@ document.addEventListener("DOMContentLoaded", () => {
               ${status ? `<li><strong>Status:</strong> ${status}</li>` : ""}
               ${category ? `<li><strong>Category:</strong> ${category}</li>` : ""}
               ${deadline ? `<li><strong>Deadline:</strong> ${deadline}</li>` : ""}
-            </ul>
+              </ul>
+            ${link ? `<a href="${link}" target="_blank">Apply / Visit</a>` : ""}
           </div>
         </div>
       `;
