@@ -39,7 +39,7 @@ const collegeHelpResources = [
   },
   { 
     title: "OnePrep: Your Ultimate SAT Site - practice problems, full-lenght tests, module practice, vocab and more!"
-    url: "https://www.oneprep.xyz/login?returnTo=%2Fquestion%2F12006%3Fquestion_set%3Dsat-suite-question-bank%26module%3Den%26difficulty%3DH%26difficulty%3DM%26active%3Dbluebook-only%26version%3D2024-10%26version%3D2025-03%26version%3D2025-08%26program%3Dsat%26seed%3D715918"
+    url: "https://www.oneprep.xyz/"
 },
 ];
 
