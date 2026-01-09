@@ -39,7 +39,7 @@ const collegeHelpResources = [
   },
   { 
     title: "OnePrep: Your Ultimate SAT Site - practice problems, full-lenght tests, module practice, vocab and more!"
-    url: "https://www.oneprep.xyz/"
+     url: "https://www.oneprep.xyz/",
 },
 ];
 
