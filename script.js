@@ -41,7 +41,11 @@ const collegeHelpResources = [
     title: "OnePrep: Your Ultimate SAT Site - practice problems, full-lenght tests, module practice, vocab and more!",
     url: "https://www.oneprep.xyz/",
 },
-];
+  {
+  title: "College Admissions Hacks: A Field Guide",
+  url: "https://docs.google.com/document/d/1OxLEGNu_7_v1kcZp4KCX13YF_GFzaM6oLvneZuAa1Ck/edit?mcp_token=eyJwaWQiOjE4MjY5NTcsInNpZCI6MTk3MzIwMzM0LCJheCI6ImVmYTQ0NWMyNmUyN2U2ZjQ0MTVlNzkxYmE0Y2ViOTVhIiwidHMiOjE3NjQ1MzIzNzcsImV4cCI6MTc2Njk1MTU3N30.EiAiGZPApFT_8RlExocMM-ZFXXEZlZTrU7D8jCD5LK0&tab=t.0#heading=h.w6k2brq4o8pc",
+  },
+    ];
 
 let allScholarships = [];
 let allOpportunities = [];
