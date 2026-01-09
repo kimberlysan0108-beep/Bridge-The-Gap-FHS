@@ -38,8 +38,8 @@ const collegeHelpResources = [
     url: "https://help.xello.world/en-us/Content/Knowledge-Base/Xello-6-12/College-Planning/KB_6-12_College-Planning.htm",
   },
   { 
-    title: "OnePrep: Your Ultimate SAT Site - practice problems, full-lenght tests, module practice, vocab and more!"
-     url: "https://www.oneprep.xyz/",
+    title: "OnePrep: Your Ultimate SAT Site - practice problems, full-lenght tests, module practice, vocab and more!",
+    url: "https://www.oneprep.xyz/",
 },
 ];
 
