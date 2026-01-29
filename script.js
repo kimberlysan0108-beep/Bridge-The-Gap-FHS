@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="resource-card">
           <div class="card-info">
             <h3>Franklin High School Newspaper</h3>
-            <p>Visit our school newspaper for the latest news, college help, and guides!</p>
+            <p>Visit our school newspaper for the latest news, college help, and guides!(coming soon)</p>
             <a href="https://fhsbuzz.com/" target="_blank">Visit FHS Buzz</a>
           </div>
         </div>
